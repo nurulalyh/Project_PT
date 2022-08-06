@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Macondo', cursive;
+}
+
+header {
+    width: 100%;
+    /* height: 10vh; */
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background: url(https://img.freepik.com/free-vector/elegant-abstract-gold-background-with-shiny-elements_23-2148827899.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+header h1 {
+    margin: 0px 60px;
+    color: gold;
+    font-size: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex; 
+    margin: 15px 60px;
+}
+
+nav ul li {
+    margin-left: 10px;
+    padding: 5px 5px;
+    display: inline-block;
+    color: black;
+}
+
+nav ul li:hover {
+    color: white;
+}
+
+#home {
+    margin: 30px 60px 100px 60px;
+    padding-top: 100px;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    text-align: justify;
+    /* justify-content: space-evenly; */
+}
+
+.text {
+    margin-right: 120px;
+}
+
+#home h1 {
+    font-size: 50px;
+}
+
+#home h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* .gambar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    justify-content: space-evenly;
+} */
+
+img.buku {
+    border-top-left-radius: 50px;
+}
+
+img.pen {
+    border-bottom-left-radius: 50px;
+}
+
+img.kelompok {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.join{
+    margin-top: 30px;
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: gold;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Macondo', cursive;
+}
+
+.join a {
+    text-decoration: none;
+    color: black;
+}
+
+.join:hover {
+    background-color: white;
+}
+
+.join a:hover {
+    color: black;
+}
+
+#about {
+    background-color: gold;
+    padding: 170px 60px 170px 60px;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    text-align: justify;
+    /* justify-content: space-evenly;  */
+}
+
+.us {
+    margin-left: 120px;
+}
+
+.us h6 {
+    margin-bottom: 10px;
+}
+
+.us h1 {
+    margin-bottom: 40px;
+}
+
+.more {
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    color:black;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Macondo', cursive;
+}
+
+.more:hover {
+    background-color: gold;
+    color: white;
+}
+
+#features {
+    padding: 80px 60px 170px 60px;
+    background-color: white;
+    color: black;
+}
+
+#features h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.fitur{
+    /* width: 900px; */
+    margin: 0px 165px;
+}
+
+.isifitur{
+    display: flex;
+    /* width: 100%; */
+    /* min-height: 300px; */
+    justify-content:space-evenly ;
+    margin-bottom: 2rem;
+    /* transition: 0.3s; */
+}
+
+.catatan h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.catatan {
+    text-align: justify;
+    padding: 20px;
+}
+
+.catatan:hover{
+    opacity: 0.5;
+}
+
+.qna {
+    text-align: justify;
+    padding: 20px;
+}
+
+.qna:hover {
+    opacity: 0.5;
+}
+
+.qna h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.diskusi{
+    text-align: justify;
+    padding: 20px;
+}
+
+.diskusi:hover{
+    opacity: 0.5;
+}
+
+.diskusi h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.Learn {
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: gold;
+    color:white;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Macondo', cursive;
+}
+
+.Learn:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    justify-content: space-evenly;
+    /* padding: 90px 180px 90px 90px; */
+}
+
+.profil {
+    margin: 90px 180px 90px 90px;
+}
+
+span {
+    color: red;
+}
+
+.contact {
+    margin: 90px 180px 90px 90px;
+}
+
+.contact ul li {
+    list-style: none;
+}
